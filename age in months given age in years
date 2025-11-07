@@ -1,0 +1,5 @@
+age_years = input("Enter your age in years: ")
+age_years = int(age_years)
+age_months = age_years * 12
+print(f"You are {age_months} months old.")
+print("Data type of age_months:", type(age_months))
